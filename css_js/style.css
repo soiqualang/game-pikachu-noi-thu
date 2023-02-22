@@ -1,0 +1,239 @@
+
+@font-face
+{
+    font-family: fontpikachu;
+    src: url('EVILDEAD.TTF');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: fontgoblin;
+    src: url('GoblinOne.otf');
+    font-weight: normal;
+}
+body
+{
+    background-color: #000;
+}
+#maintable
+{
+    border: 0 !important;
+    padding-top: 20px;
+    width: 993px;
+    height: 646px;
+    background: url(bgpikachu.jpg) no-repeat 0 0;
+}
+.mt2
+{
+    background: url(bgpikachu2.jpg) no-repeat 0 0 !important;
+    }
+.mt3
+{
+    background: url(bgpikachu3.jpg) no-repeat 0 0 !important;
+    }
+.mt4
+{
+    background: url(bgpikachu4.jpg) no-repeat 0 0 !important;
+    }
+.mt5
+{
+    background: url(bgpikachu.jpg) no-repeat 0 0 !important;
+    }           
+.timebar
+{
+    position: relative;
+    width: 120px;
+}
+#timebar
+{
+    position: relative;
+    left: -30px;
+    top: -57px;
+    width: 23px;
+    max-height: 469px;
+    background: url(timebar.png) no-repeat center bottom;
+}
+.status
+{
+    width: 120px;
+    font-style: normal;
+    font-size: 32px;
+    color: #ffe506;
+}
+#level
+{
+    display: block;
+    position: relative;
+    top: -150px;
+    font-size: 50px;
+    font-family: fontpikachu,fontgoblin,Impact;
+}
+#blood
+{
+    display: block;
+    position: relative;
+    top: -60px;
+    font-family: fontpikachu,fontgoblin,Impact;
+}
+#score
+{
+    display: block;
+    position: relative;
+    top: 55px;
+    font-family: fontpikachu,fontgoblin,Impact;
+}
+.status
+{
+    position: relative;
+}
+.status div
+{
+    position: absolute;
+    width: 150px;
+    text-align: center;
+}
+#change_sound
+{
+    cursor: pointer;
+    margin-left: 40px;
+    position: relative;
+    top: -38px;
+    width: 160px;
+    height: 30px;
+    margin-right: 30px;
+    background: none;
+    font-size: 0;
+    border: 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: url(btnsound.png) no-repeat 0 -30px;
+}
+#change_sound:hover
+{
+    border: 1px solid #cb8b00;
+    -moz-box-shadow: 0px 0px 5px #ffc547;
+    -webkit-box-shadow: 0px 0px 5px #ffc547;
+    box-shadow: 0px 0px 5px #ffc547;
+}
+.soundOff
+{
+    background: url(btnsound.png) no-repeat 0 0 !important;
+}
+.soundOn
+{
+    background: url(btnsound.png) no-repeat 0 -30px !important;
+}
+#change_block
+{
+    cursor: pointer;
+    margin-left: 10px;
+    position: relative;
+    top: -38px;
+    width: 120px;
+    height: 30px;
+    margin-right: 25px;
+    background: none;
+    font-size: 0;
+    border: 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: url(btnchange.png) no-repeat 0 0;
+}
+#change_block:hover
+{
+    border: 1px solid #cb8b00;
+    -moz-box-shadow: 0px 0px 5px #ffc547;
+    -webkit-box-shadow: 0px 0px 5px #ffc547;
+    box-shadow: 0px 0px 5px #ffc547;
+}
+#gReplay
+{
+    cursor: pointer;
+    margin-left: 0px;
+    position: relative;
+    top: -38px;
+    width: 100px;
+    height: 30px;
+    margin-right: 25px;
+    background: none;
+    font-size: 0;
+    border: 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: url(btnreplay.png) no-repeat 0 0;
+}
+#gReplay:hover
+{
+    border: 1px solid #cb8b00;
+    -moz-box-shadow: 0px 0px 5px #ffc547;
+    -webkit-box-shadow: 0px 0px 5px #ffc547;
+    box-shadow: 0px 0px 5px #ffc547;
+}
+#gSaveScore
+{
+    cursor: pointer;
+    margin-left: 0px;
+    position: relative;
+    top: -38px;
+    width: 110px;
+    height: 30px;
+    margin-right: 30px;
+    background: none;
+    font-size: 0;
+    border: 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: url(btnsave.png) no-repeat 0 0;
+}
+#gSaveScore:hover
+{
+    border: 1px solid #cb8b00;
+    -moz-box-shadow: 0px 0px 5px #ffc547;
+    -webkit-box-shadow: 0px 0px 5px #ffc547;
+    box-shadow: 0px 0px 5px #ffc547;
+}
+#HighScore
+{
+    cursor: pointer;
+    margin-left: 0px;
+    position: relative;
+    top: -38px;
+    width: 110px;
+    height: 30px;
+    margin-right: 30px;
+    background: none;
+    font-size: 0;
+    border: 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: url(btnhiscore.png) no-repeat 0 0;
+}
+#HighScore:hover
+{
+    border: 1px solid #cb8b00;
+    -moz-box-shadow: 0px 0px 5px #ffc547;
+    -webkit-box-shadow: 0px 0px 5px #ffc547;
+    box-shadow: 0px 0px 5px #ffc547;
+}
+.menuFooter ul li a
+{
+    color:#ad612b;
+    }
+.copyright
+{
+    color:#555;
+    }    
+.menuFooter ul li
+{
+    border-right:1px dotted #444444;
+    }  
+.copyright a
+{
+    color:#ca3f28;
+    }      
